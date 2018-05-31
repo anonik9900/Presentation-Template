@@ -16,7 +16,7 @@ $(
 
             $("#cookie").css({
                 position: "fixed"
-                , top: 700
+                , top: 925
                 , left: 0
                 , width: "100%"
                 , background: "rgba(255,255,255,0.8)"
