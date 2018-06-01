@@ -9,7 +9,7 @@ Template di presentazione scritto in HTML5 e CSS3
   <li><a href="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">JQuery 1.8.3</a></li>
   <li><a href="http://jquery.com/download/">JQuery 3.3.1</a></li>
   <li><a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">Font Awesome</a></li>
-  <li><a href="https://github.com/anonik9900/Simple-Cookie">:cookie: Simple Cookie By Me</a></li>
+  <li><a href="https://github.com/anonik9900/Simple-Cookie">Simple Cookie By Me :cookie:</a></li>
   </ul>
   
   <h2>Da includere -To Include</h2>
