@@ -47,6 +47,7 @@ SOFTWARE.
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><!-- JQuery 1.8.3 -->
     <script src="js/cookie.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script><!-- Jquery 3.3.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Font per icone -->
     <link href="favicon.png" rel="shortcut icon" /><!-- Favicon -->
 
 
@@ -96,17 +97,19 @@ SOFTWARE.
   <body>
 
 <!-- Barra di navigazione -->
+<div id="principale">
     <nav>
    <div class="nav-wrapper color black">
      <a href="#!" class="brand-logo center">Il titolo del tuo sito</a>
      <ul class="left hide-on-med-and-down">
-       <li class="active"><a href="index.html">Home</a></li>
-       <li><span onclick="scroll_to('come')"><a>Come Funziona</a></li>
-       <li><span onclick="scroll_to('sezione2')"><a>Sponsor</a></li>
-       <li><span onclick="scroll_to('sezione3')"><a>Altro...</a></li>
+       <li class="active"><a class="menu_link" href="index.html">Home</a></li>
+       <li><span onclick="scroll_to('come')"><a class="menu_link">Come Funziona</a></li>
+       <li><span onclick="scroll_to('sezione2')"><a class="menu_link">Sponsor</a></li>
+       <li><span onclick="scroll_to('sezione3')"><a class="menu_link">Altro...</a></li>
      </ul>
    </div>
  </nav>
+</div>
  <!-- Fine barra di navigazione -->
 
  <!-- Parallax 1 -->
@@ -233,12 +236,52 @@ SOFTWARE.
 
   </div>
 
+<!-- Fine sezione 3 -->
 
 
-<!----->
+
+
 </div>
 </div>
 
+
+<!--
+<================================================>
+                  Footer
+<================================================>
+-->
+
+<footer class="page-footer color black">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Contenuto del tuo footer</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Social</h5>
+              <ul>
+                <li><a href="#" class="fa fa-facebook"></a>
+                   <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                     <a href="#" class="fa fa-youtube"></a>
+                   <a href="#" class="fa fa-google"></a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2018 Eco-Cloud All Rights Reserved | Designed By <!--Don' delete this - non cancellare questo --><a href="https://facebook.com/nicholas.impieri">Nicholas Impieri </a> <!--Don' delete this - non cancellare questo -->
+          <span onclick="scroll_to('principale')"><a class="grey-text text-lighten-4 right"><i class="fa fa-toggle-up" style="font-size:50px;color:white"></i></a></span>
+          </div>
+        </div>
+      </footer>
+<!--
+<================================================>
+                  Fine Footer
+<================================================>
+-->
 
 
 
