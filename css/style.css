@@ -218,3 +218,60 @@ padding: 0px 0px 0px 0px;
   background: #ff6600;
   color: white;
 }
+
+
+/***************************
+        ICONS COLOR
+****************************/
+
+a.icona_1{
+  color: black;
+}
+
+a.icona_1:hover{
+  color: orange;
+}
+
+a.icona_2{
+  color: black;
+}
+
+a.icona_2:hover{
+  color: orange;
+}
+
+a.icona_3{
+  color: black;
+}
+
+a.icona_3:hover{
+  color: orange;
+}
+
+a.icona_4{
+  color: black;
+}
+
+a.icona_4:hover{
+  color: orange;
+}
+
+a.icona_5{
+  color: black;
+}
+
+a.icona_5:hover{
+  color: orange;
+}
+
+a.icona_6{
+  color: black;
+}
+
+a.icona_6:hover{
+  color: orange;
+}
+
+/***********************
+    FINE ICONS COLOR
+***********************/
